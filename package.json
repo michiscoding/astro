@@ -10,6 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.11.5"
+    "@fontsource-variable/inter": "^5.0.19",
+    "@fontsource/open-sans": "^5.0.28",
+    "astro": "^4.11.5",
+    "openai": "^4.52.7"
   }
 }

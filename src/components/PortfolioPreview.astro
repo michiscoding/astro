@@ -1,17 +1,24 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import thumbnails from '../thumbnails/thumbnails.json';
 
 interface Props {
 	project: CollectionEntry<'work'>;
 }
 
 const { data, slug } = Astro.props.project;
+const thumbnail = thumbnails[slug];
 ---
+
+<!-- <a class="card" href={`/work/${slug}`}>
+	<span class="title">{data.title}</span>
+	<img src={data.img} alt={data.img_alt || ''} loading="lazy" decoding="async" />
+</a>  -->
 
 <a class="card" href={`/work/${slug}`}>
 	<span class="title">{data.title}</span>
-	<img src={data.img} alt={data.img_alt || ''} loading="lazy" decoding="async" />
-</a>
+	<img src={thumbnail.src} alt={data.img_alt || ''} loading="lazy" decoding="async" />
+</a> 
 
 <style>
 	.card {

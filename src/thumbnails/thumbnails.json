@@ -1,0 +1,28 @@
+{
+  "costco": {
+    "title": "Conditionally Select Approvers",
+      "src": "/assets/gif1.gif" ,
+      "img_alt": "Image of Project 1"
+    },
+  "alimed": {
+    "title": "Import and Defaul Fields",
+      "src": "/assets/gif2.gif" ,
+      "img_alt": "Image of Project 1"
+    },
+    "baby-gpt": {
+      "title": "Baby GPT",
+        "src": "/assets/colorado1.jpg",
+        "img_alt": "Image of Project 2"
+      },
+    "smfr": {
+    "title": "Scan and Create Items in D365",
+      "src": "/assets/gif3.gif" ,
+      "img_alt": "Image of Project 1"
+    },
+    "oregon": {
+      "title": "Power App (ongoing)",
+        "src": "/assets/gif4.gif" ,
+        "img_alt": "Image of Project 4"
+      }
+  }
+  
