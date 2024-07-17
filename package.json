@@ -14,5 +14,8 @@
     "@fontsource/open-sans": "^5.0.28",
     "astro": "^4.11.5",
     "openai": "^4.52.7"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.33.4"
   }
 }
